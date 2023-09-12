@@ -24,6 +24,8 @@ copySound.volume = 0.2;
 
 function grabClInit(){
     const clInit = `
+    include("shared.lua")
+    
     function ENT:Draw() self:DrawModel() end
     `;
     console.log(clInit);
