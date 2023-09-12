@@ -54,7 +54,8 @@ function grabInit(){
         console.log(final);
         return final;
     } else if (!checkBox.checked) {
-        var actualFinal = final.replace("MOVETYPE_VPHYSICS","MOVETYPE_NONE");
+        var pt1 = final.replace("MOVETYPE_VPHYSICS","MOVETYPE_NONE");
+        var actualFinal = pt1.replace("if phys:IsValid() then phys:Wake() end", " ")
         console.log(actualFinal);
         return actualFinal;
     }
