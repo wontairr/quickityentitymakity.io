@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quickity Entity Makity</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">   
+    <link rel="stylesheet" href="style.css">
+    <audio id="copysound">
+        <source src="copysound.mp3" type="audio/mp3" preload="auto"/>
+        <source src="copysound.ogg" type="audio/ogg" preload="auto"/>
+    </audio>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@200&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="title"><p>
+            Quickity 
+            Entity 
+            Makity</p></div>
+    </header>
+
+    <footer>
+        <div class="credit">Made by Wontairr</div>
+    </footer>
+
+    <div class="wrapper">
+        <div class="background"></div>
+        <div class="middle-container">
+            <div class="input-field-parent" id="input-1"><input id="name-input"  class="input-field" type="text" placeholder="Name"></div>
+            <img src="cube.png" class="preview-cube" height="150">
+            <div class="input-field-parent" id="input-2"><input id="model-input" class="input-field" type="text" placeholder="Model"></div>
+            <div class="input-field-parent" id="input-3"><input id="category-input" class="input-field" type="text" placeholder="Category"></div>
+            
+            <div id="phys-text"><input type="checkbox"
+                id="switch-physics" checked="true"
+                class="checkbox" /></div>
+
+            <div class="bottom-container">
+                <button class="output-button" id="cl-init-button"></button>
+                <button class="output-button" id="init-button"></button>
+                <button class="output-button" id="shared-button"></button>
+            </div>
+            <div id="copy-text"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
