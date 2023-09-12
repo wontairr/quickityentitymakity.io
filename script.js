@@ -64,7 +64,7 @@ function grabInit(){
 
 function grabShared(){
     const shared = `
-    ENT.Type = "anim
+    ENT.Type = "anim"
     ENT.Base = "base_anim"
 
     ENT.PrintName = "INSERTNAMEHERE"
