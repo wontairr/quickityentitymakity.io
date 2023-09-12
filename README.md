@@ -1,2 +1,2 @@
 # quickityentitymaker.io
-A website that helps you generate the required entity lua files for making Garry's Mod addons
+A website that generates the basic lua code for making entities in Garry's Mod
